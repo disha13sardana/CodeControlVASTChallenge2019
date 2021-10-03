@@ -320,6 +320,7 @@ namespace Scenes
             }
         }
 
+       
 //        public void SetShakeIntensityHistogramActive(bool active)
 //        {
 //            
