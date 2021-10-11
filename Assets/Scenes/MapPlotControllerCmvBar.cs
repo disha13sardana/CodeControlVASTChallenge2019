@@ -18,7 +18,7 @@ namespace Scenes
 
         private AudioMixerGroup pitchBendGroup;
 
-        private MapPlotViewCmvBar view;
+        public MapPlotViewCmvBar view;
         private List<BarPlotController> barPlotControllers = new List<BarPlotController>();
 
         public void Awake()
@@ -129,5 +129,7 @@ namespace Scenes
             view.PauseAmbientAudio(ambientAudioSource);
             view.PlayAudioClip(showHideAudioSource, hideAudioClip);
         }
+
+
     }
 }

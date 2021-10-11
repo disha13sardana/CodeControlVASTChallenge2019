@@ -7,7 +7,7 @@ namespace Scenes
 {
     public class MapPlotFloorController : Controller<MapPlotFloorModel>
     {
-        private MapPlotFloorView view;
+        public MapPlotFloorView view;
 
         private List<DataPointController> dataPointControllers = new List<DataPointController>();
         private List<BarPlotController> barPlotControllers = new List<BarPlotController>();
@@ -65,6 +65,13 @@ namespace Scenes
         public void SetActive(bool active)
         {
             view.SetActive(active);
+        }
+        public void StopAudio()
+        {
+            foreach (DataPointController d in dataPointControllers)
+            {
+                d.dataPointView.MuteAudio();
+            }
         }
     }
 }

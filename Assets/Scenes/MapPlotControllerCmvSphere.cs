@@ -21,7 +21,7 @@ namespace Scenes
 //        private bool isBrushed = false;
 //        private float slicingPlanePosition;
 
-        private MapPlotViewCmvSphere view;
+        public MapPlotViewCmvSphere view;
         private List<CMVDataPointController> cmvDataPointControllers = new List<CMVDataPointController>();
 
         public void Awake()
@@ -152,6 +152,14 @@ namespace Scenes
         {
             view.PauseAmbientAudio(ambientAudioSource);
             view.PlayAudioClip(showHideAudioSource, hideAudioClip);
+        }
+
+        public void ResetSceneShere()
+        {
+            foreach (CMVDataPointController dataPointController in cmvDataPointControllers)
+            {
+                dataPointController.ResetSceneUpdateColor();                
+            }
         }
     }
 }

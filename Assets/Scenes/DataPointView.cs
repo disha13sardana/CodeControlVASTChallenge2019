@@ -44,4 +44,10 @@ public class DataPointView : MonoBehaviour
 //        audioSource.spread = modelScale.x * 10f;
         audioSource.Play(0);
     }
+
+    public void MuteAudio()
+    {
+        AudioSource audioSource = gameObject.AddComponent<AudioSource>();
+        audioSource.Stop();
+    }
 }

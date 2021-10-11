@@ -10,7 +10,7 @@ using UnityEngine.Serialization;
 
 public class SlicingPlaneController : Controller<SlicingPlaneModel>
 {
-    private SlicingPlaneView view;
+    public SlicingPlaneView view;
     private int NumFramesEventNotSent = 0;
     public int EmitEventEveryNFrames = 10;
     public Material DefaultMaterial;

@@ -8,7 +8,7 @@ using UnityEngine.EventSystems;
 
 public class DataPointController : Controller<DataPointModel>
 {
-    private DataPointView dataPointView;
+    public DataPointView dataPointView;
 
     private bool isBrushed;
     private static ILogger logger = Debug.unityLogger;

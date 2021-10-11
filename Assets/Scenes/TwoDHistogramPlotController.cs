@@ -18,7 +18,7 @@ namespace Scenes
 
         private AudioMixerGroup pitchBendGroup;
 
-        private TwoDHistogramPlotView view;
+        public TwoDHistogramPlotView view;
         private List<BarController> barControllers = new List<BarController>();
 
         // private static ILogger logger = Debug.unityLogger;

@@ -58,5 +58,12 @@ namespace Scenes
             GetModel().Visibility = active;
             cmvDataPointView.SetActive(active);
         }
+
+        public void ResetSceneUpdateColor()
+        {
+            isBrushed = false;
+            cmvDataPointView.SetColor(isBrushed ? model.BrushColor : model.Color);
+
+        }
     }
 }

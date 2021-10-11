@@ -129,4 +129,10 @@ public class MapPlotFloorView : MonoBehaviour
     {
         GetComponent<Transform>().GetChild(0).gameObject.GetComponent<TextMesh>().text = plotName;
     }
+
+    public void StopAudio()
+    {
+        AudioSource audioSource = GetComponent<AudioSource>();
+        audioSource.Stop();
+    }
 }

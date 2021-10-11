@@ -206,5 +206,11 @@ namespace Scenes
             ambientAudioSource.pitch = pitch;
             pitchBendGroup.audioMixer.SetFloat("pitchBend", 1f / pitch);
         }
+
+        public void StopAudio()
+        {
+            AudioSource audioSource = GetComponent<AudioSource>();
+            audioSource.Stop();
+        }
     }
 }

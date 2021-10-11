@@ -320,11 +320,29 @@ namespace Scenes
             }
         }
 
-       
-//        public void SetShakeIntensityHistogramActive(bool active)
-//        {
-//            
-//            twoDHistogramPlotController.SetActive(active);
-//        }
+
+        //        public void SetShakeIntensityHistogramActive(bool active)
+        //        {
+        //            
+        //            twoDHistogramPlotController.SetActive(active);
+        //        }
+
+        public void ResetScene()
+        {
+            slicingPlaneController.view.SetPosition(new Vector3(0f, 10f, 0f));
+
+        }
+
+        public void MuteAudio()
+        {
+
+            slicingPlaneController.view.StopAudio();
+            //slicingPlaneController.view.SetAudioActive(false);
+            //floorPlane.StopAudio();
+            //twoDHistogramPlotController.view.StopAudio();
+            //mapPlotControllerCmvSphere1.PlayHideSound();
+            //mapPlotControllerCmvBar1.PlayHideSound();
+
+        }
     }
 }

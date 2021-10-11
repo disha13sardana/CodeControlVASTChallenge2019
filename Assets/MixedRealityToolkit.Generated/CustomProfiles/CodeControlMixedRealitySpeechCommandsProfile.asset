@@ -219,3 +219,24 @@ MonoBehaviour:
       id: 0
       description: Toggle Diagnostics
       axisConstraint: 0
+  - localizationKey: 
+    keyword: Show Scene Ten
+    keyCode: 0
+    action:
+      id: 0
+      description: Toggle Diagnostics
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: Reset
+    keyCode: 0
+    action:
+      id: 0
+      description: Toggle Diagnostics
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: Show Cube
+    keyCode: 0
+    action:
+      id: 0
+      description: Toggle Diagnostics
+      axisConstraint: 0

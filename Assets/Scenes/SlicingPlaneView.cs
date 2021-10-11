@@ -143,4 +143,10 @@ public class SlicingPlaneView : MonoBehaviour
         GetComponent<MeshRenderer>().material = material;
         GetComponent<Transform>().GetChild(1).GetComponent<MeshRenderer>().material = material;
     }
+
+    public void StopAudio()
+    {
+        AudioSource audioSource = GetComponent<AudioSource>();
+        audioSource.volume = 0f;
+    }
 }
