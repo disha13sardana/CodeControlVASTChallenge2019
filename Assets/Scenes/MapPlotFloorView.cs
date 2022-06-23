@@ -133,6 +133,6 @@ public class MapPlotFloorView : MonoBehaviour
     public void StopAudio()
     {
         AudioSource audioSource = GetComponent<AudioSource>();
-        audioSource.Stop();
+        audioSource.volume = 0;
     }
 }

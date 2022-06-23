@@ -635,7 +635,6 @@ GameObject:
   - component: {fileID: 1157718728}
   - component: {fileID: 1157718727}
   - component: {fileID: 1157718731}
-  - component: {fileID: 1157718726}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -657,29 +656,6 @@ Transform:
   m_Father: {fileID: 249285515}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1157718726
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1157718724}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf98dd1206224111a38765365e98e207, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lockCursorWhenFocusLocked: 1
-  setCursorInvisibleWhenFocusLocked: 0
-  maxGazeCollisionDistance: 10
-  raycastLayerMasks:
-  - serializedVersion: 2
-    m_Bits: 4294967291
-  stabilizer:
-    storedStabilitySamples: 60
-  gazeTransform: {fileID: 0}
-  minHeadVelocityThreshold: 0.5
-  maxHeadVelocityThreshold: 2
 --- !u!114 &1157718727
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1341,7 +1317,7 @@ PrefabInstance:
     - target: {fileID: 800522764923772604, guid: 7e32ccdfcd095a949b0879af03f1da5d,
         type: 3}
       propertyPath: keywords.Array.data[16].keyword
-      value: Reset
+      value: SCene Reset
       objectReference: {fileID: 0}
     - target: {fileID: 800522764923772604, guid: 7e32ccdfcd095a949b0879af03f1da5d,
         type: 3}

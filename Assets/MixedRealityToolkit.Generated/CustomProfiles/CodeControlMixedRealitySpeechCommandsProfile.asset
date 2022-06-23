@@ -227,7 +227,7 @@ MonoBehaviour:
       description: Toggle Diagnostics
       axisConstraint: 0
   - localizationKey: 
-    keyword: Reset
+    keyword: SCene Reset
     keyCode: 0
     action:
       id: 0

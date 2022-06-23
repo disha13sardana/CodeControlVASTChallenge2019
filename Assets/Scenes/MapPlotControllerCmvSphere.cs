@@ -22,6 +22,8 @@ namespace Scenes
 //        private float slicingPlanePosition;
 
         public MapPlotViewCmvSphere view;
+        public Color color;
+        public Color brushColor;
         private List<CMVDataPointController> cmvDataPointControllers = new List<CMVDataPointController>();
 
         public void Awake()
@@ -98,9 +100,9 @@ namespace Scenes
                     model.MaxSphereScale, model.MinSphereScale, model.ScaleDataColumnIndex);
                 dataPointController.UpdateScale(scale);
 
-                Color brushColor = MapPlotViewCmvSphere.ComputeSphereColor(model.Mc1Data, slicingPlanePosition,
+                brushColor = MapPlotViewCmvSphere.ComputeSphereColor(model.Mc1Data, slicingPlanePosition,
                     location, model.ColorDataColumnIndex, model.minBrushColor, model.maxBrushColor);
-                Color color = MapPlotViewCmvSphere.ComputeSphereColor(model.Mc1Data, slicingPlanePosition, location,
+                color = MapPlotViewCmvSphere.ComputeSphereColor(model.Mc1Data, slicingPlanePosition, location,
                     model.ColorDataColumnIndex, model.minColor, model.maxColor);
 
                 dataPointController.UpdateColor(color, brushColor);
@@ -154,11 +156,18 @@ namespace Scenes
             view.PlayAudioClip(showHideAudioSource, hideAudioClip);
         }
 
-        public void ResetSceneShere()
+        public void ResetSceneSphere()
         {
             foreach (CMVDataPointController dataPointController in cmvDataPointControllers)
             {
-                dataPointController.ResetSceneUpdateColor();                
+                dataPointController.isBrushed = false;
+                /*Color brushColor = MapPlotViewCmvSphere.ComputeSphereColor(model.Mc1Data, slicingPlanePosition,
+                    location, model.ColorDataColumnIndex, model.minBrushColor, model.maxBrushColor);
+                Color color = MapPlotViewCmvSphere.ComputeSphereColor(model.Mc1Data, slicingPlanePosition, location,
+                    model.ColorDataColumnIndex, model.minColor, model.maxColor);*/
+
+                dataPointController.UpdateColor(color, brushColor);
+                //dataPointController.ResetSceneUpdateColor();
             }
         }
     }

@@ -15,7 +15,7 @@ MonoBehaviour:
   isCustomProfile: 1
   targetExperienceScale: 3
   enableCameraSystem: 1
-  cameraProfile: {fileID: 11400000, guid: 6a6ea8e8cca71344ba773e4317537580, type: 2}
+  cameraProfile: {fileID: 11400000, guid: f3954d8cee836cc4aa0d1351672ba3cd, type: 2}
   cameraSystemType:
     reference: Microsoft.MixedReality.Toolkit.CameraSystem.MixedRealityCameraSystem,
       Microsoft.MixedReality.Toolkit.Services.CameraSystem
@@ -36,7 +36,7 @@ MonoBehaviour:
   spatialAwarenessSystemType:
     reference: Microsoft.MixedReality.Toolkit.SpatialAwareness.MixedRealitySpatialAwarenessSystem,
       Microsoft.MixedReality.Toolkit.Services.SpatialAwarenessSystem
-  spatialAwarenessSystemProfile: {fileID: 11400000, guid: 2f8932c6c78438e4d9bff23af5c710be,
+  spatialAwarenessSystemProfile: {fileID: 11400000, guid: 6e72cd588f3ff32499d8ece4e5844f84,
     type: 2}
   diagnosticsSystemProfile: {fileID: 11400000, guid: 478436bd1083882479a52d067e98e537,
     type: 2}

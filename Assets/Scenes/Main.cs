@@ -330,18 +330,20 @@ namespace Scenes
         public void ResetScene()
         {
             slicingPlaneController.view.SetPosition(new Vector3(0f, 10f, 0f));
+            slicingPlaneController.EmitSlicingPlaneManipulationEndMessage();
+            mapPlotControllerCmvSphere1.ResetSceneSphere();
 
         }
 
         public void MuteAudio()
         {
 
-            slicingPlaneController.view.StopAudio();
-            //slicingPlaneController.view.SetAudioActive(false);
-            //floorPlane.StopAudio();
-            //twoDHistogramPlotController.view.StopAudio();
-            //mapPlotControllerCmvSphere1.PlayHideSound();
-            //mapPlotControllerCmvBar1.PlayHideSound();
+            AudioSource[] sources = FindObjectsOfType(typeof(AudioSource)) as AudioSource[];
+            for (int index = 0; index < sources.Length; ++index)
+            {
+                sources[index].mute = true;
+                sources[index].volume = 0f;
+            }
 
         }
     }

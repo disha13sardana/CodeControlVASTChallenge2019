@@ -48,6 +48,6 @@ public class DataPointView : MonoBehaviour
     public void MuteAudio()
     {
         AudioSource audioSource = gameObject.AddComponent<AudioSource>();
-        audioSource.Stop();
+        audioSource.volume = 0;
     }
 }
