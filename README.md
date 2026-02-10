@@ -791,9 +791,13 @@ This project is available for educational and research purposes.
 
 **Dataset License**: The VAST Challenge 2019 dataset is provided by the IEEE VAST Challenge organizers. Please refer to the [official VAST Challenge website](https://vast-challenge.github.io/2019/) for data usage terms.
 
-**Code License**: [...]
+**Code License**: MIT License
+\
+Copyright (c) 2026 Disha Sardana
+\
+Permission is hereby granted, free of charge, to any person obtaining a copy... (see the full text in [LICENSE](https://github.com/disha13sardana/CodeControlVASTChallenge2019/blob/main/LICENSE))
 
-When using this work, please cite:
+**When using this work, please cite:**
 
 ```bibtex
 
@@ -830,23 +834,16 @@ When using this work, please cite:
 
 ## 🔗 Useful Links
 
-### Demo
-- **Project Demo**: [Multi-modal Data Exploration in a Mixed Reality Environment using Coordinated Multiple Views](https://www.youtube.com/watch?v=y1DOrvwNDso&t=2s)
-  
 ### Project Resources
+- **Demo**: [Multi-modal Data Exploration in a Mixed Reality Environment using Coordinated Multiple Views](https://www.youtube.com/watch?v=y1DOrvwNDso&t=2s)
+- **Project Website**: [disha-sardana/work/immersive-analytics](https://disha-sardana.squarespace.com/work/immersive-analytics)  
 - **IEEE VAST Challenge 2019**: [https://vast-challenge.github.io/2019/](https://vast-challenge.github.io/2019/)
-- **VAST Challenge Workshop**: [Video presentations and papers](https://vast-challenge.github.io/2019/)
 
 ### Development Resources
 - **Microsoft HoloLens 2 Documentation**: [https://docs.microsoft.com/hololens/](https://docs.microsoft.com/hololens/)
 - **Mixed Reality Toolkit (MRTK)**: [https://github.com/microsoft/MixedRealityToolkit-Unity](https://github.com/microsoft/MixedRealityToolkit-Unity)
 - **Unity for HoloLens**: [https://learn.microsoft.com/windows/mixed-reality/develop/unity/unity-development-overview](https://learn.microsoft.com/windows/mixed-reality/develop/unity/unity-development-overview)
 - **MRTK Documentation**: [https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/](https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/)
-
-### Research Resources
-- **Immersive Analytics**: [http://immersiveanalytics.org/](http://immersiveanalytics.org/)
-- **IEEE VIS Conference**: [http://ieeevis.org/](http://ieeevis.org/)
-- **Virginia Tech ICAT**: [https://icat.vt.edu/](https://icat.vt.edu/)
 
 ### Tutorials
 - **HoloLens 2 Tutorials**: [Microsoft Learn](https://learn.microsoft.com/training/paths/beginner-hololens-2-tutorials/)
@@ -860,7 +857,7 @@ When using this work, please cite:
 For questions, feedback, or collaboration opportunities:
 
 - **Issues**: Please use [GitHub Issues](https://github.com/disha13sardana/CodeControlVASTChallenge2019/issues)
-- **Academic Inquiries**: Contact through institutional email (check ORCID profile)
+- **Inquiries**: Contact through email: disha13sardana@gmail.com
 - **General Questions**: Open a discussion in the repository
 
 ---
@@ -870,8 +867,8 @@ For questions, feedback, or collaboration opportunities:
 - **IEEE VAST Challenge organizers** for providing the comprehensive dataset
 - **Microsoft** for HoloLens 2 hardware and MRTK framework
 - **Visual Analytics research community** for foundational work in immersive analytics
-- **Virginia Tech ICAT** for research support and facilities
-- All contributors and testers who helped improve this system
+- **Virginia Tech ICAT** for research support and facilities - [https://icat.vt.edu/](https://icat.vt.edu/)
+- All contributors and participants who helped improve this system
 
 ---
 
@@ -884,7 +881,7 @@ This project is ideal for:
 - **Workshops**: Hands-on MR development training
 - **Demonstrations**: Showcasing immersive data analysis techniques
 
-Feel free to use this project in educational settings. We appreciate attribution and would love to hear about your experiences!
+Feel free to use this project in research and educational settings. We appreciate attribution and would love to hear about your experiences!
 
 ---
 
