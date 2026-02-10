@@ -835,7 +835,7 @@ Permission is hereby granted, free of charge, to any person obtaining a copy... 
 ## 🔗 Useful Links
 
 ### Project Resources
-- **Demo**: [Multi-modal Data Exploration in a Mixed Reality Environment using Coordinated Multiple Views](https://www.youtube.com/watch?v=y1DOrvwNDso&t=2s)
+- **Demo**: [YouTube/multimodal-data-exploration](https://www.youtube.com/watch?v=y1DOrvwNDso&t=2s)
 - **Project Website**: [disha-sardana/work/immersive-analytics](https://disha-sardana.squarespace.com/work/immersive-analytics)  
 - **IEEE VAST Challenge 2019**: [https://vast-challenge.github.io/2019/](https://vast-challenge.github.io/2019/)
 
