@@ -1,4 +1,4 @@
-# Code Control VAST Challenge 2019
+# Immersive Analytics in Disaster Response
 
 **IEEE VAST Challenge 2019 Dataset in an Immersive Mixed Reality Environment**
 
@@ -622,7 +622,7 @@ Lecture Notes in Computer Science, vol 12766. Springer, Cham.
 
 **Sardana, D. (2023)**  
 *"Embodied Data Exploration in Immersive Environments: Application in Geophysical Data Analysis"*  
-Doctoral Dissertation, Virginia Polytechnic Institute and State University.  
+Doctoral Dissertation, Virginia Tech.  
 [Available online](https://vtechworks.lib.vt.edu/items/6f22f081-e3ae-4ce6-a128-70c4dd23e5bb)
 
 
@@ -779,8 +779,9 @@ We welcome contributions from the research community! Here's how you can help:
 
 - **Code Style**: Follow Microsoft C# Coding Conventions
 - **Comments**: Use XML documentation for public APIs
-- **Testing**: Test on actual HoloLens 2 hardware when possible
-- **Performance**: Profile and optimize critical paths
+- **Testing**: Test on actual HoloLens 2 hardware when possible.
+  \
+  If using different hardware (e.g., Meta Quest Pro, Magic Leap 2, other MR/AR devices), please specify in your pull request
 - **Accessibility**: Consider users with different abilities
 
 ---
@@ -805,17 +806,19 @@ Permission is hereby granted, free of charge, to any person obtaining a copy... 
   title={Embodied Data Exploration in Immersive Environments: Application in Geophysical Data Analysis},
   author={Sardana, Disha},
   year={2023},
-  school={Virginia Polytechnic Institute and State University}
+  school={Virginia Tech}
 }
 
 @inproceedings{sardana2021multimodal,
   title={Multi-modal Data Exploration in a Mixed Reality Environment Using Coordinated Multiple Views},
-  author={Sardana, Disha and Kahu, Sampanna Yashwant and Gra{\v{c}}anin, Denis},
+  author={Sardana, Disha and Kahu, Sampanna Yashwant and Gra{\v{c}}anin, Denis and Matkovi{\'c}, Kre{\v{s}}imir},
   booktitle={Human Interface and the Management of Information. Information Presentation and Visualization: Thematic Area, HIMI 2021},
-  pages={331--352},
+  pages={337--356},
   year={2021},
   organization={Springer}
 }
+
+
 ```
 
 ---
@@ -865,7 +868,6 @@ For questions, feedback, or collaboration opportunities:
 ## 🙏 Acknowledgments
 
 - **IEEE VAST Challenge organizers** for providing the comprehensive dataset
-- **Microsoft** for HoloLens 2 hardware and MRTK framework
 - **Visual Analytics research community** for foundational work in immersive analytics
 - **Virginia Tech ICAT** for research support and facilities - [https://icat.vt.edu/](https://icat.vt.edu/)
 - All contributors and participants who helped improve this system
